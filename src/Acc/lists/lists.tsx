@@ -1,11 +1,11 @@
 import List from "./list";
 
 const Lists = () => {
-  const items: string[] = ["Tanvir", "Hossain"];
+  const data = ["Rakib", "Tanvir", "UK proloy", "Abu jakariya"];
   const onClick = (text: string): void => alert(text);
   return (
     <div>
-      <List items={items} onClick={onClick} />
+      <List items={data} onClick={onClick} />
     </div>
   );
 };
